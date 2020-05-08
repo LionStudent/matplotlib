@@ -29,10 +29,10 @@ sliceXAxis  = xAxis[5:35]
 sliceYAxis  = yAxis[5:35]
 
 # Plot data points as a red circle.
-redCircle = 'ro'
+style = 'ro'
 
 # Give matplotlib our data
-plt.plot(sliceXAxis , sliceYAxis , redCircle)
+plt.plot(sliceXAxis , sliceYAxis , style)
 
 # Specify the region of the plot we wish to display
 plt.axis([-10, 10, 0, 100])
